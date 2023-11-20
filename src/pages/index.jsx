@@ -13,7 +13,9 @@ const Homepage = () => {
         <meta name='description' content='Your page description goes here' />
         <meta name='keywords' content='Blogs,CMS Blog, Blogs' />
         <meta name='author' content='Sanyogita' />
+        <meta property='og:title' content='My CMS blogs'/>
         <title>Blogs by CMS using contentful</title>
+        <link rel='icon' href='/Blog-icon.png'/>
 
         {/* Add any additional meta tags or links to external resources here */}
       </Head>
