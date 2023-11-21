@@ -18,6 +18,22 @@ const Homepage = () => {
         <link rel='icon' href='/Blog-icon.png'/>
 
         {/* Add any additional meta tags or links to external resources here */}
+        <script
+          async
+          src={`https://www.googletagmanager.com/gtag/js?id=G-JGJ19FE1C6`}
+        ></script>
+        <script>
+          {`
+            window.dataLayer = window.dataLayer || [];
+            function gtag() {
+              window.dataLayer.push(arguments);
+            }
+            gtag('js', new Date());
+            gtag('config', 'G-JGJ19FE1C6');
+          `}
+          {/* G-JGJ19FE1C6 */}
+          {/* 6395715437 */}
+        </script>
       </Head>
       <Home/>
   
